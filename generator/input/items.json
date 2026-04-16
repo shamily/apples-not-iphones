@@ -1,0 +1,641 @@
+[
+  {
+    "identifier": "real apple",
+    "singular": "real apple",
+    "plural": "real apples",
+    "base_noun": "apple",
+    "category": "food",
+    "can_be_target": true,
+    "additional_gain": [
+      "grown"
+    ],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "crafted",
+      "built"
+    ],
+    "not_applicable_loss": [],
+    "synonyms": [
+      "apple that is real",
+      "apple which is real",
+      "most real apple",
+      "really real apple"
+    ],
+    "distractors": [
+      "plastic apple",
+      "wooden apple",
+      "fake shiny apple",
+      "real Apple iPhone",
+      "real Apple MacBook",
+      "real Apple Watch",
+      "house paper flyer",
+      "Real Madrid ticket",
+      "real apple pie",
+      "real apple cider",
+      "toy apple",
+      "real apple juice"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} painted a beautiful portrait of {n} real apples.",
+      "{actor} read a blog post about how to grow {n} real apples.",
+      "{actor} dreamed of picking {n} real apples from a magical tree.",
+      "{actor} saw a television ad featuring {n} real apples.",
+      "{actor} bought a plastic basket that contained {n} fake real apples.",
+      "{actor} wrote a poem about {n} real apples."
+    ]
+  },
+  {
+    "identifier": "squared blue orange",
+    "singular": "squared blue orange",
+    "plural": "squared blue oranges",
+    "base_noun": "orange",
+    "category": "surreal_food",
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "built",
+      "crafted"
+    ],
+    "not_applicable_loss": [
+      "burned"
+    ],
+    "synonyms": [
+      "blue orange that is squared",
+      "blue orange which is squared",
+      "squared-shaped blue orange"
+    ],
+    "distractors": [
+      "round blue orange",
+      "squared red orange",
+      "blue orange square",
+      "plastic blue orange",
+      "painted blue orange",
+      "blue orange juice",
+      "squared blue box"
+    ],
+    "length": 3,
+    "abstract_stories": [
+      "{actor} wrote a sci-fi story about {n} squared blue oranges.",
+      "{actor} imagined a universe with {n} squared blue oranges.",
+      "{actor} sculpted {n} squared blue oranges out of clay.",
+      "{actor} had a hallucination of {n} squared blue oranges."
+    ]
+  },
+  {
+    "identifier": "wooden chair",
+    "singular": "wooden chair",
+    "plural": "wooden chairs",
+    "base_noun": "chair",
+    "category": "furniture",
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [
+      "threw in the trash"
+    ],
+    "not_applicable_gain": [
+      "harvested",
+      "gathered"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed"
+    ],
+    "synonyms": [
+      "chair that is wooden",
+      "chair made of wood",
+      "chair which is wooden"
+    ],
+    "distractors": [
+      "plastic chair",
+      "metal chair",
+      "wooden table",
+      "wooden rocking horse",
+      "wooden chair leg"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} looked at a catalog showing {n} wooden chairs.",
+      "{actor} took a photograph of {n} wooden chairs.",
+      "{actor} played a video game and placed {n} wooden chairs in a virtual house.",
+      "{actor} drew a sketch containing {n} wooden chairs."
+    ]
+  },
+  {
+    "identifier": "golden coin",
+    "singular": "golden coin",
+    "plural": "golden coins",
+    "base_noun": "coin",
+    "category": "currency",
+    "can_be_target": true,
+    "additional_gain": [
+      "dug up"
+    ],
+    "additional_loss": [
+      "spent",
+      "melted"
+    ],
+    "not_applicable_gain": [
+      "harvested",
+      "built",
+      "crafted"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [
+      "coin that is golden",
+      "coin which is golden",
+      "most golden coin"
+    ],
+    "distractors": [
+      "chocolate coin",
+      "plastic coin",
+      "golden retriever",
+      "golden ring",
+      "gold medal",
+      "bitcoin",
+      "coin pouch"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} ate {n} chocolate golden coins.",
+      "{actor} read a fantasy book about a thief stealing {n} golden coins.",
+      "{actor} collected {n} stickers of golden coins.",
+      "{actor} earned {n} digital golden coins in a mobile game.",
+      "{actor} found a toy chest filled with {n} plastic golden coins.",
+      "{actor} watched a movie about {n} golden coins."
+    ]
+  },
+  {
+    "identifier": "paper file",
+    "singular": "paper file",
+    "plural": "paper files",
+    "base_noun": "file",
+    "category": "object",
+    "length": 2,
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested",
+      "gathered",
+      "built"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed"
+    ],
+    "synonyms": [
+      "file made of paper",
+      "file that is paper"
+    ],
+    "distractors": [
+      "nail file",
+      "file folder",
+      "filing cabinet"
+    ],
+    "abstract_stories": [
+      "{actor} saved {n} digital files to their hard drive.",
+      "{actor} stood in a single file line with {n} people.",
+      "{actor} downloaded {n} audio files."
+    ]
+  },
+  {
+    "identifier": "fake diamond",
+    "singular": "fake diamond",
+    "plural": "fake diamonds",
+    "base_noun": "diamond",
+    "category": "fake_object",
+    "can_be_target": false,
+    "additional_gain": [],
+    "additional_loss": [
+      "melted"
+    ],
+    "not_applicable_gain": [
+      "harvested",
+      "gathered"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} watched a documentary about {n} fake diamonds.",
+      "{actor} drew a picture of {n} fake diamonds.",
+      "{actor} read an article concerning {n} fake diamonds."
+    ]
+  },
+  {
+    "identifier": "real problem",
+    "singular": "real problem",
+    "plural": "real problems",
+    "base_noun": "problem",
+    "category": "abstract_concept",
+    "can_be_target": false,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "gathered",
+      "harvested",
+      "crafted",
+      "built",
+      "bought",
+      "purchased"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "threw away",
+      "burned"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} read {n} articles about solving a real problem.",
+      "{actor} discussed {n} ways to fix a real problem.",
+      "{actor} thought of {n} solutions to a real problem."
+    ]
+  },
+  {
+    "identifier": "Apple iPhone",
+    "singular": "Apple iPhone",
+    "plural": "Apple iPhones",
+    "base_noun": "iPhone",
+    "category": "electronics",
+    "can_be_target": false,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested",
+      "crafted"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed"
+    ],
+    "length": 2,
+    "abstract_stories": [
+      "{actor} saw a billboard advertising {n} Apple iPhones.",
+      "{actor} read {n} reviews of the new Apple iPhone.",
+      "{actor} watched {n} videos about the Apple iPhone."
+    ]
+  },
+  {
+    "identifier": "apple",
+    "singular": "apple",
+    "plural": "apples",
+    "base_noun": "apple",
+    "category": "food",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "grown"
+    ],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "crafted",
+      "built"
+    ],
+    "not_applicable_loss": [],
+    "synonyms": [],
+    "distractors": [
+      "Apple iPhone",
+      "Apple MacBook",
+      "apple pie",
+      "apple drink",
+      "toy apple",
+      "pineapple",
+      "crabapple"
+    ],
+    "abstract_stories": [
+      "{actor} baked {n} apple pies for the school fair.",
+      "{actor} drank {n} glasses of apple drink.",
+      "{actor} visited the Big Apple {n} times last year.",
+      "{actor} purchased {n} Apple stocks on the market.",
+      "{actor} played a game and found {n} virtual apples.",
+      "{actor} bought {n} jars of apple jam."
+    ]
+  },
+  {
+    "identifier": "glass",
+    "singular": "glass",
+    "plural": "glasses",
+    "base_noun": "glass",
+    "category": "object",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "drinking glass",
+      "looking glass",
+      "glass slipper",
+      "magnifying glass",
+      "eyeglasses",
+      "fiberglass",
+      "glass window"
+    ],
+    "abstract_stories": [
+      "{actor} broke {n} reading glasses.",
+      "{actor} bought {n} magnifying glasses.",
+      "{actor} installed {n} new glass windows.",
+      "{actor} looked into {n} different looking glasses.",
+      "{actor} read a fairy tale about {n} glass slippers."
+    ]
+  },
+  {
+    "identifier": "iron",
+    "singular": "iron",
+    "plural": "irons",
+    "base_noun": "iron",
+    "category": "tool",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "dug up"
+    ],
+    "additional_loss": [
+      "melted",
+      "threw in the trash"
+    ],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "pressing iron",
+      "golf iron",
+      "cast iron",
+      "soldering iron",
+      "iron fence"
+    ],
+    "abstract_stories": [
+      "{actor} watched {n} Iron Man movies.",
+      "{actor} bought {n} soldering irons.",
+      "{actor} painted {n} iron fences.",
+      "{actor} listened to {n} songs by Iron Maiden.",
+      "{actor} used {n} golf irons on the course."
+    ]
+  },
+  {
+    "identifier": "chip",
+    "singular": "chip",
+    "plural": "chips",
+    "base_noun": "chip",
+    "category": "object",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "potato chip",
+      "microchip",
+      "poker chip",
+      "chocolate chip",
+      "cow chip",
+      "chipmunk"
+    ],
+    "abstract_stories": [
+      "{actor} ate a bag containing {n} potato chips.",
+      "{actor} installed {n} new microchips into the motherboard.",
+      "{actor} lost {n} poker chips at the casino.",
+      "{actor} bought {n} blue chip stocks.",
+      "{actor} baked cookies with {n} chocolate chips."
+    ]
+  },
+  {
+    "identifier": "ring",
+    "singular": "ring",
+    "plural": "rings",
+    "base_noun": "ring",
+    "category": "jewelry",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "dug up"
+    ],
+    "additional_loss": [
+      "melted"
+    ],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "onion ring",
+      "boxing ring",
+      "phone ring",
+      "wedding ring"
+    ],
+    "abstract_stories": [
+      "{actor} ordered {n} onion rings with their burger.",
+      "{actor} heard the phone ring {n} times.",
+      "{actor} designed a game featuring {n} rings of fire.",
+      "{actor} bought {n} tickets to a boxing ring event.",
+      "{actor} read {n} books about the Lord of the Rings."
+    ]
+  },
+  {
+    "identifier": "shell",
+    "singular": "shell",
+    "plural": "shells",
+    "base_noun": "shell",
+    "category": "natural_object",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "dug up"
+    ],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested",
+      "built",
+      "crafted"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "sea shell",
+      "turtle shell",
+      "bomb shell",
+      "shotgun shell",
+      "peanut shell"
+    ],
+    "abstract_stories": [
+      "{actor} collected {n} empty shotgun shells.",
+      "{actor} visited {n} Shell petrol stations during the road trip.",
+      "{actor} investigated {n} illegal shell companies.",
+      "{actor} ate {n} peanut shells by mistake.",
+      "{actor} drew a picture of {n} turtle shells."
+    ]
+  },
+  {
+    "identifier": "box",
+    "singular": "box",
+    "plural": "boxes",
+    "base_noun": "box",
+    "category": "container",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "cardboard box",
+      "boombox",
+      "mailbox",
+      "voice box",
+      "penalty box"
+    ],
+    "abstract_stories": [
+      "{actor} learned {n} new ways to beatbox.",
+      "{actor} checked the mailbox {n} times for a letter.",
+      "{actor} watched {n} boxing matches on television.",
+      "{actor} bought tickets at the box office for {n} friends.",
+      "{actor} listened to {n} songs on a boombox."
+    ]
+  },
+  {
+    "identifier": "plant",
+    "singular": "plant",
+    "plural": "plants",
+    "base_noun": "plant",
+    "category": "plants",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "grown"
+    ],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "built",
+      "crafted"
+    ],
+    "not_applicable_loss": [],
+    "synonyms": [],
+    "distractors": [
+      "power plant",
+      "nuclear plant",
+      "spy plant",
+      "eggplant",
+      "house plant",
+      "manufacturing plant"
+    ],
+    "abstract_stories": [
+      "{actor} visited a power plant {n} times for a school project.",
+      "{actor} chopped up {n} eggplants for dinner.",
+      "{actor} laughed at a video of {n} guys doing a faceplant.",
+      "{actor} investigated a rumor about {n} nuclear plants.",
+      "{actor} read a book about {n} spy plants."
+    ]
+  },
+  {
+    "identifier": "rock",
+    "singular": "rock",
+    "plural": "rocks",
+    "base_noun": "rock",
+    "category": "minerals",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [
+      "dug up"
+    ],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested",
+      "built",
+      "crafted"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed",
+      "burned"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "rocking chair",
+      "rocket",
+      "moon rock"
+    ],
+    "abstract_stories": [
+      "{actor} listened to {n} rock music albums in a row.",
+      "{actor} bought {n} posters of a famous rock star.",
+      "{actor} bought {n} tickets for a rocket launch.",
+      "{actor} sat in {n} rocking chairs at the furniture store.",
+      "{actor} collected {n} moon rocks during a simulation game."
+    ]
+  },
+  {
+    "identifier": "club",
+    "singular": "club",
+    "plural": "clubs",
+    "base_noun": "club",
+    "category": "tool",
+    "length": 1,
+    "can_be_target": true,
+    "additional_gain": [],
+    "additional_loss": [],
+    "not_applicable_gain": [
+      "harvested"
+    ],
+    "not_applicable_loss": [
+      "ate",
+      "consumed"
+    ],
+    "synonyms": [],
+    "distractors": [
+      "golf club",
+      "club sandwich",
+      "clubhouse"
+    ],
+    "abstract_stories": [
+      "{actor} made {n} club sandwiches for the picnic.",
+      "{actor} joined {n} different fan clubs online.",
+      "{actor} went dancing at {n} night clubs.",
+      "{actor} read a book about {n} playing card clubs.",
+      "{actor} visited the clubhouse {n} times."
+    ]
+  }
+]
