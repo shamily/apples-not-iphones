@@ -1,0 +1,16 @@
+{
+  "gain_verbs": [
+    "bought",
+    "purchased",
+    "crafted",
+    "built",
+    "harvested",
+    "gathered"
+  ],
+  "loss_verbs": [
+    "ate",
+    "consumed",
+    "threw away",
+    "burned"
+  ]
+}

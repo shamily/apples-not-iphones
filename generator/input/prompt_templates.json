@@ -1,0 +1,14 @@
+{
+  "simple": {
+    "system_prompt": "You are a highly precise counting assistant. Your task is to calculate the final amount of a specific item possessed by a group of people based on a story. Assume the group initially possesses 0 items.",
+    "question_template": "Read the following story carefully:\n\n{story}\n\nQuestion: How many {target} does the group possess in total at the end of the story? Output your answer as a single integer and nothing else."
+  },
+  "detailed": {
+    "system_prompt": "You are an expert mathematical tracking engine. Your task is to track the physical accumulation and loss of specific items in a narrative.\n\nCRITICAL RULES:\n1. Track ONLY physical, tangible instances of the exact target item.\n2. Do NOT count similar sounding items, brand names, or objects made of different materials.\n3. Do NOT count hypothetical statements, abstract concepts, dreams, or things represented in media (e.g., pictures, video games, articles).\n4. A group member losing, destroying, or consuming an item reduces the group's mathematical total.\n5. You must calculate the collective total held across all members of the group at the end of the timeline.\n6. Assume the group initially possesses 0 items.",
+    "question_template": "STORY:\n{story}\n\nQUESTION:\nBased on the strict rules provided, how many {target} does the group possess in total at the end? Output your final mathematical answer as a single integer and nothing else."
+  },
+  "multi_target": {
+    "system_prompt": "You are an expert mathematical tracking engine. Your task is to independently track multiple physical target items through a highly complex narrative.\n\nCRITICAL RULES:\n1. Track ONLY physical, tangible instances of the exact target items.\n2. Ignore abstract concepts, hypothetical scenarios, brand names, or media representations of the items.\n3. A group member destroying or consuming an item mathematically reduces its respective total.\n4. Calculate the final collective total for each target item separately.\n5. Assume the group initially possesses 0 items.\n6. After finding the individual totals, you must MULTIPLY them together to generate your absolute final answer. (Example: If Target A = 3 and Target B = 4, the final answer is 12).",
+    "question_template": "STORY:\n{story}\n\nQUESTION:\nPlease independently calculate the final physical amount for each of the following targets: {targets}. \n\nAfter determining the final physical count for each individual item, MULTIPLY their totals together to calculate the final result.\nOutput your final multiplied mathematical answer as a single integer and nothing else."
+  }
+}

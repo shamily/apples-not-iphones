@@ -1,0 +1,298 @@
+{
+  "tasks": [
+    "agi_attention_diagnostic_v2_task1",
+    "agi_attention_diagnostic_v2_task2",
+    "agi_attention_diagnostic_v2_task3",
+    "agi_attention_diagnostic_v2_task4"
+  ],
+  "models": {
+    "gemini-3.1-pro-preview": {
+      "task1": {
+        "score": 0.99,
+        "tokens": 31175
+      },
+      "task2": {
+        "score": 0.89,
+        "tokens": 100098
+      },
+      "task3": {
+        "score": 0.95,
+        "tokens": 324024
+      },
+      "task4": {
+        "score": 0.93,
+        "tokens": 0
+      }
+    },
+    "gemma-4-31b-it": {
+      "task1": {
+        "score": 0.9,
+        "tokens": 31277
+      },
+      "task2": {
+        "score": 0.66,
+        "tokens": 92258
+      },
+      "task3": {
+        "score": 0.54,
+        "tokens": 302946
+      },
+      "task4": {
+        "score": 0.22,
+        "tokens": 0
+      }
+    },
+    "claude-opus-4-6-default": {
+      "task1": {
+        "score": 0.91,
+        "tokens": 59060
+      },
+      "task2": {
+        "score": 0.59,
+        "tokens": 159735
+      },
+      "task3": {
+        "score": 0.45,
+        "tokens": 417062
+      },
+      "task4": {
+        "score": 0.12,
+        "tokens": 0
+      }
+    },
+    "gemma-4-26b-a4b-it": {
+      "task1": {
+        "score": 0.93,
+        "tokens": 30680
+      },
+      "task2": {
+        "score": 0.63,
+        "tokens": 91050
+      },
+      "task3": {
+        "score": 0.36,
+        "tokens": 202986
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gemini-2.5-flash": {
+      "task1": {
+        "score": 0.88,
+        "tokens": 36915
+      },
+      "task2": {
+        "score": 0.59,
+        "tokens": 119157
+      },
+      "task3": {
+        "score": 0.42,
+        "tokens": 365859
+      },
+      "task4": {
+        "score": 0.08,
+        "tokens": 0
+      }
+    },
+    "glm-5": {
+      "task1": {
+        "score": 0.91,
+        "tokens": 287543
+      },
+      "task2": {
+        "score": 0.73,
+        "tokens": 858523
+      },
+      "task3": {
+        "score": 0.24,
+        "tokens": 763448
+      },
+      "task4": {
+        "score": 0.13,
+        "tokens": 0
+      }
+    },
+    "qwen3-next-80b-a3b-thinking": {
+      "task1": {
+        "score": 0.91,
+        "tokens": 352573
+      },
+      "task2": {
+        "score": 0.57,
+        "tokens": 937157
+      },
+      "task3": {
+        "score": 0.36,
+        "tokens": 1326839
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "claude-sonnet-4-6-default": {
+      "task1": {
+        "score": 0.89,
+        "tokens": 59633
+      },
+      "task2": {
+        "score": 0.44,
+        "tokens": 161957
+      },
+      "task3": {
+        "score": 0.35,
+        "tokens": 425927
+      },
+      "task4": {
+        "score": 0.07,
+        "tokens": 0
+      }
+    },
+    "qwen3-next-80b-a3b-instruct": {
+      "task1": {
+        "score": 0.77,
+        "tokens": 80465
+      },
+      "task2": {
+        "score": 0.54,
+        "tokens": 277240
+      },
+      "task3": {
+        "score": 0.19,
+        "tokens": 554965
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gpt-oss-20b": {
+      "task1": {
+        "score": 0.76,
+        "tokens": 114372
+      },
+      "task2": {
+        "score": 0.44,
+        "tokens": 541330
+      },
+      "task3": {
+        "score": 0.08,
+        "tokens": 1607678
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gpt-oss-120b": {
+      "task1": {
+        "score": 0.74,
+        "tokens": 89063
+      },
+      "task2": {
+        "score": 0.41,
+        "tokens": 331776
+      },
+      "task3": {
+        "score": 0.11,
+        "tokens": 706944
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "deepseek-v3.2": {
+      "task1": {
+        "score": 0.35,
+        "tokens": 43069
+      },
+      "task2": {
+        "score": 0.13,
+        "tokens": 128165
+      },
+      "task3": {
+        "score": 0.08,
+        "tokens": 387307
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gpt-5.4-2026-03-05": {
+      "task1": {
+        "score": 0.39,
+        "tokens": 30687
+      },
+      "task2": {
+        "score": 0.03,
+        "tokens": 91020
+      },
+      "task3": {
+        "score": 0.11,
+        "tokens": 302871
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "task1": {
+        "score": 0.28,
+        "tokens": 31186
+      },
+      "task2": {
+        "score": 0.01,
+        "tokens": 92182
+      },
+      "task3": {
+        "score": 0.09,
+        "tokens": 307541
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gpt-5.4-mini-2026-03-17": {
+      "task1": {
+        "score": 0.19,
+        "tokens": 31073
+      },
+      "task2": {
+        "score": 0.0,
+        "tokens": 91500
+      },
+      "task3": {
+        "score": 0.04,
+        "tokens": 303405
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    },
+    "gpt-5.4-nano-2026-03-17": {
+      "task1": {
+        "score": 0.19,
+        "tokens": 30704
+      },
+      "task2": {
+        "score": 0.0,
+        "tokens": 91254
+      },
+      "task3": {
+        "score": 0.01,
+        "tokens": 302847
+      },
+      "task4": {
+        "score": 0.0,
+        "tokens": 0
+      }
+    }
+  }
+}
